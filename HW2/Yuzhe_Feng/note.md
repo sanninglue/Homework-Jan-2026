@@ -6,12 +6,12 @@ CSS stands for Cascading Style Sheets. It is a is a stylesheet language used to 
 
 ### 2. How do you link a CSS file to an HTML document?
 
-You link a CSS file to an HTML document using the <link> tag inside the <head> section, setting the "rel" attribute to stylesheet and the "href" pointing to the CSS file.(<link rel="stylesheet" href="styles.css">)
+You link a CSS file to an HTML document using the `<link>` tag inside the `<head>` section, setting the "rel" attribute to stylesheet and the "href" pointing to the CSS file.`<link rel="stylesheet" href="styles.css">`
 
 ### 3. What is block element? How is it different from inline, and inline-block elements?
 
-A block element takes up the full available width of its container and starts on a new line, such as <div> or <p>.
-An inline element flows within text, does not start on a new line, and its width and height are determined by its content, like <span> or <a>.
+A block element takes up the full available width of its container and starts on a new line, such as `<div>` or `<p>`.
+An inline element flows within text, does not start on a new line, and its width and height are determined by its content, like `<span>` or `<a>`.
 An inline-block element behaves like inline element but allows width, height, margin, and padding to be set, combining characteristics of both block and inline elements.
 
 ### 4. What is the difference between pseudo-class and pseudo-element?
@@ -22,8 +22,8 @@ In short, pseudo-classes describe an element’s state, while pseudo-elements de
 
 ### 5. What is the difference between the child combinator and the descendant combinator?
 
-The child combinator (>) selects elements that are direct children of a parent element.
-The descendant combinator (a space) selects elements that are any level of descendants, including nested elements.
+The child combinator `>` selects elements that are direct children of a parent element.
+The descendant combinator `a space` selects elements that are any level of descendants, including nested elements.
 
 ### 6. What are two ways that we can make an element invisible? What is the difference?
 
