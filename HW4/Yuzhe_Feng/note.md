@@ -5,7 +5,7 @@
 Functions can be declared in three common ways.
 A function declaration uses the function keyword and is hoisted, allowing it to be called before it is defined.
 A function expression assigns a function to a variable and is only available after they are defined.
-An arrow function provides a more concise syntax and does not have its own this or arguments, making it widely used in modern JavaScript.
+An arrow function provides a more concise syntax and does not have its own `this` or `arguments`, making it widely used in modern JavaScript.
 
 ### 2. What is the DOM?
 
@@ -15,8 +15,8 @@ It allows JavaScript to dynamically access and manipulate the structure, content
 ### 3. How can you select an HTML element using JS?
 
 HTML elements can be selected in JavaScript using DOM selection methods.
-The most common approach is using querySelector and querySelectorAll, which allow elements to be selected with CSS selectors and provide a flexible way to access the DOM.
-Traditional methods such as getElementById, getElementsByClassName, and getElementsByTagName are also can select elements based on their attributes or tag names.
+The most common approach is using `querySelector` and `querySelectorAll`, which allow elements to be selected with CSS selectors and provide a flexible way to access the DOM.
+Traditional methods such as `getElementById`, `getElementsByClassName`, and `getElementsByTagName` are also can select elements based on their attributes or tag names.
 
 ### 4. What is a DOM event?
 
@@ -47,7 +47,7 @@ Event bubbling and event capturing describe the two directions in which events p
 In event capturing, the event travels from the root of the DOM down to the target element. In event bubbling, the event travels from the target element back up to the root.
 Bubbling is the default behavior and is commonly used for event delegation.
 
-### 9. What is an IIF
+### 9. What is an IIFE
 
 An IIFE, or Immediately Invoked Function Expression, is a function that is defined and executed immediately after it is created.
 It creates its own scope and is commonly used to avoid polluting the global namespace.
