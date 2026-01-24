@@ -99,7 +99,7 @@ These methods help keep side effects separate from rendering logic and ensure th
 
 React Strict Mode is a development-only feature that helps identify potential problems in a React application.
 
-It intentionally adds extra checks and warnings, such as running certain functions twice, to detect unsafe side effects and deprecated patterns.
+It adds extra checks and warnings, such as running certain functions twice, to detect unsafe side effects and deprecated patterns.
 
 Strict Mode does not affect production builds and is used purely as a debugging and best-practice tool.
 
@@ -113,11 +113,11 @@ While they behave similarly to DOM events, synthetic events are managed by React
 
 Some of the most common React events I use are `onClick`, `onChange`, and `onSubmit`.
 
-`onClick` is typically used for handling button actions such as submitting data, toggling UI state, or triggering navigation.
+`onClick` is used for handling button actions such as submitting data, toggling UI state, or triggering navigation.
 
 `onChange` is mainly used with controlled components to keep form inputs in sync with React state.
 
-`onSubmit` is commonly used on forms to handle submission logic and prevent the default browser behavior.
+`onSubmit` is used on forms to handle submission logic and prevent the default browser behavior.
 
 In addition, I often use events like onBlur for input validation and onKeyDown for handling keyboard interactions such as submitting a form with the Enter key.
 
